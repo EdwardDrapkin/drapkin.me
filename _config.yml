@@ -1,0 +1,32 @@
+# Site settings
+title: "Edward Drapkin"
+email: EdwardDrapkin@gmail.com
+description: "A blog."
+baseurl: ""
+url: "http://edwarddrapkin.com/"
+title_description: "Software Developer at large."
+title_image: "http://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
+google_analytics: "UA-81697775-1"
+disqus_account:
+github_repository:
+addthis_id: ra-579f0b13ff3884f4
+
+post_limit: 10
+
+# Social usernames/URLs
+twitter_username: EddieDrapkin
+github_username: EdwardDrapkin
+
+# Footer
+footer_left: "Theme forked from <a href=\"https://github.com/jacobtomlinson/carte-noire\">Carte Noire</a>."
+footer_right: "&copy; Edward Drapkin 2016"
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+permalink: pretty
+exclude: [vendor]

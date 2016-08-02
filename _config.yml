@@ -5,7 +5,7 @@ description: "A blog."
 baseurl: ""
 url: "http://edwarddrapkin.com/"
 title_description: "Software Developer at large."
-title_image: "http://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
+title_image: "//www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
 google_analytics: "UA-81697775-1"
 disqus_account:
 github_repository:
@@ -30,3 +30,6 @@ kramdown:
 
 permalink: pretty
 exclude: [vendor]
+
+sass:
+    sass_dir: css
